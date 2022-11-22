@@ -21,6 +21,10 @@ def replies():
             print(msg)
             if msg == 'привет':
                 sender(user_id, 'и тебе тоже привет')
+            elif msg == 'пока':
+                sender(user_id, 'давай удачи')
+            else:
+                sender(user_id, 'ладно')
 
 
 replies()
